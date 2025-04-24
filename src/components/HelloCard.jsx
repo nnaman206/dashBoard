@@ -3,7 +3,7 @@ import gif from "../assets/test2.gif"; // replace with your actual gif path
 
 function HelloCard({ title, description }) {
   return (
-    <div className="bg-yellow-300 rounded-xl shadow-lg flex flex-col md:flex-row items-center justify-between overflow-hidden p-6 max-w-4xl mx-auto">
+    <div className="bg-yellow-300 rounded-xl shadow-lg flex flex-col md:flex-row items-center justify-between overflow-hidden p-6 w-4xl mx-auto">
       {/* Text content */}
       <div className="md:w-2/3 mb-4 md:mb-0">
         <h2 className="text-2xl font-bold mb-2">{"title"}</h2>

@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({ icon, title, description,iconColor }) {
   return (
-    <div className={`${iconColor} shadow-md rounded-xl overflow-hidden max-w-80`}>
+    <div className={`bg-amber-300 shadow-md rounded-xl overflow-hidden w-70`}>
       <div className="p-4 flex items-center space-x-2">
         <span className="text-3xl text-black-600">{icon}</span>
         <div>
@@ -15,3 +15,5 @@ function Card({ icon, title, description,iconColor }) {
 }
 
 export default Card;
+
+
