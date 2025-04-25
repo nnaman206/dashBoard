@@ -4,12 +4,15 @@ import TopArticle from './components/TopArticle';
 
 import Calendar from './components/Calendar';
 import DashBoard from './main/DashBoard';
+import Visits from './components/Visits';
+import Finance from "./components/Finance"
+import Popularity from './components/Popularity';
 function App() {
   
 
   return (
     <>
-     <DashBoard/>
+    <Popularity/>
     </>
   )
 }

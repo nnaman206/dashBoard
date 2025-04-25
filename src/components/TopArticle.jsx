@@ -16,7 +16,7 @@ function TopArticle({ icon, title, date }) {
       <div className="-ml-117 -mb-16">
         <p className="text-gray-500 text-sm ">{date}</p>
         </div>
-      <div className="flex items-center space-x-1 text-gray-600 text-sm -mt-14 ml-120">
+      <div className="flex items-center space-x-1 text-gray-600 text-sm -mt-14 ml-100">
         <LuView className="text-base" />
         <span>3.6K</span>
       </div>
